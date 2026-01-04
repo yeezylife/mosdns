@@ -32,7 +32,7 @@ jobs:
           CGO_ENABLED: '0'
 
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: mosdns-build
           path: './release/mosdns*.zip'
